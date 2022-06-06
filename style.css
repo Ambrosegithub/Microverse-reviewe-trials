@@ -1,0 +1,44 @@
+#header{
+    display: flex;
+    background-color: darkgray;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 50px
+  }
+  
+  #nav-bar{
+    display: flexbox;
+    width: 20%;
+  }
+  
+  .nav-link{
+    display: flex;
+    align-items: center;
+    margin-right: 15px
+  }
+  
+  #header-img{
+    height: 70px;
+    width: 100px;
+  }
+  
+  #video{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+  }
+  
+  
+  @media only screen and (min-width: 800px) {
+    /* For desktop: */
+    #header{background-color: yellow;}
+    #nav-bar{background-color: black;}
+    #video{
+      height: 200px;
+      width: 300px;
+    }
+  }
+
